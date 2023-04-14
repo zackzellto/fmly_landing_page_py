@@ -14,8 +14,19 @@ info:
         tags:
           - "Post_Email"
         summary: "Post email address to waitlist"
+        requestBody:
+          description: "Email address to join the waitlist for fmly."
+          required: True
+          content:
+            application/json:
+              schema: 
+                type: object
+                properties:
+                  email:
+                    type: string
+                    description: "Email address to join the waitlist"                  
         responses:
-          "200":
+          "201":
             description: "Successfully joined the waitlist!"
           "400":
             description: "Something went wrong, try again."
