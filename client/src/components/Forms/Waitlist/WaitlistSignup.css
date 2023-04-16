@@ -1,0 +1,80 @@
+
+@media screen and (max-width: 768px) {
+    .wl-input{
+        width: 80%;
+        height: 50px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 0 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .wl-button{
+        width: 80%;
+        height: 56px;
+        border: 1px solid #83F3DF;
+        border-radius: 5px;
+        padding: 0 10px;
+        font-size: 16px;
+        margin-bottom: 32px;
+        background-color: #83F3DF;
+        color: #83F3DF;
+        font-weight: bold;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .wl-button:hover{
+        transform: scale(1.1);
+    }
+
+    .wl-spacer{
+      margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .wl-input{
+    width: 50%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 10px;   
+    position: relative;
+    bottom: 570px;
+    left: 200px;
+    
+
+}
+
+.wl-button{
+    width: 30%;
+    height: 56px;
+    border: 1px solid #83F3DF;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #83F3DF;
+    color: #83F3DF;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    bottom: 572px;
+    left: 220px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .wl-button:hover{
+      transform: scale(1.1);
+  }
+
+.wl-spacer{
+  display: none;
+}
+
+}

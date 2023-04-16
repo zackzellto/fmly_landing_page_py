@@ -1,0 +1,190 @@
+.included-features-container
+{
+    width: 100%;
+    height: auto;
+    max-height: auto;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pricing-box-free{
+    width: 320px;
+    height: 600px;
+    max-height: auto;
+    background-color: #21F3CE;
+    margin: auto;
+    position: relative;
+    margin-top: 60px;    
+  }
+
+  .pricing-box-premium{
+    width: 320px;
+    height: 600px;
+    max-height: auto;
+    background-color: #21F3CE;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;    
+    margin-bottom: 40px;
+  }
+
+
+
+.pricing-box-subscribe{
+    width: 320px;
+    height: 600px;
+    max-height: auto;
+    margin: auto;
+    position: relative;
+    margin-top: 70px;
+ 
+  }
+
+.pricing-box-upgrade{
+    width: 320px;
+    height: 600px;
+    max-height: auto;
+    margin: auto;
+    position: relative;
+    margin-top: 70px;
+  }
+
+
+  .pricing-box-text-free{
+    font-size: 26px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    padding: 2;
+    position: relative;
+  }
+
+  .pricing-box-free-title{
+    font-size: 46px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    padding: 2;
+    position: relative;
+    text-align: center;
+    top: 20px;
+  }
+
+  .pricing-box-free-bg{
+    margin: 0;
+    height: 200px;
+    background-color: #F59999;
+    padding: 2;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+  }
+
+  li{
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .included-features{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+
+  .pricing-box-text-premium{
+    font-size: 26px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    padding: 2;
+    position: relative;
+  }
+
+  .pricing-box-premium-title{
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+    font-family: 'Paytone One', sans-serif;
+    margin-bottom: 40px;
+    margin: 0;
+    padding: 2;
+    position: relative;
+    top: 20px;
+  }
+  
+    .pricing-box-premium-price{
+    font-size: 56px;
+  }
+
+  .pricing-box-premium-bg{
+    margin: 0;
+    height: 200px;
+    background-color: #83CBF3;
+    padding: 2;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+  }
+
+  .pricing-box-text-upgrade{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    background-color: #F850F1;
+    padding: 2;
+    position: relative;
+  }
+
+  .pricing-box-text-subscribe{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    background-color: #6C6AEF;
+    padding: 2;
+    position: relative;
+  }
+
+  .fmly-text{
+    position: relative;
+    float: right;
+    font-size: 1.5rem;
+    color: #21F3CE;
+    font-family: 'Paytone One', sans-serif;
+  }
+
+  .fmly-board{
+    font-size: 1.5rem;
+    color: #6a7a66;
+    font-family: 'Paytone One', sans-serif;
+  }
+
+  .fmly-text-details{
+    font-size: 1.2rem;
+    color: #21F3CE;
+    font-family: 'Paytone One', sans-serif;
+  }
+
+  .fmly-board-details{
+    font-size: 1.2rem;
+    color: #6a7a66;
+    font-family: 'Paytone One', sans-serif;
+  }
+
+  .fmly-accordion-detail{
+    font-size: 1rem;
+    color: #21F3CE;
+    font-family: 'Paytone One', sans-serif;
+  }
+
+  .accordion-icon{
+    margin-right: 40px;
+  }

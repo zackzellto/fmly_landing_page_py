@@ -1,0 +1,262 @@
+@media screen and (max-width: 768px) {
+.green-circle-pf {
+    background-color: #90f38d;
+    border-radius: 50%;
+    padding-bottom: 50%; 
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    max-height: 350px;
+    margin: auto;
+    overflow: hidden; 
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+
+.premium-features-title{
+    font-size: 34px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+.find-my-fmly-map{
+    max-width: 320px;
+    max-height: 320px;
+    position: relative;
+    border-radius: 10%;
+    margin: auto;
+    top: 65px;
+    width: 70%;
+    height: auto;
+    z-index: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.fmf-text-svg{
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    z-index: 1;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.fmf-text{
+    color: black;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.premium-features-text{
+    color: #888181;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin:auto;
+}
+
+.fmly-pf-text{
+    color: #83F3DF;
+    font-weight: 600;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+}
+
+.blue-square-pf{
+    background-color: #4D57B1;
+    border-radius: 40px;
+    width: 350px;
+    height: 350px;
+
+    max-width: 90%;
+    max-height: auto;
+    display: inline-block;
+    margin: auto;
+}
+
+.bountyboard-minimal-view{
+    width: 150px;
+    height: 350px;
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+    max-height: auto;
+    z-index: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bountyboard-blue-title{
+    color: #83CBF3;
+    font-weight: 700;
+    font-family: 'Popfepins', sans-serif;
+    font-size: 40px;
+    width: fit-content;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bountyboard-blue-text{
+    margin-top: 30px;
+    color: black;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 30px;
+    position: relative;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+}
+
+@media screen and (min-width: 768px) {
+    .green-circle-pf {
+        background-color: #90f38d;
+        border-radius: 50%;
+        width: 100%;
+        max-width: 450px;
+        height: 450px;
+        float: left;
+        margin: auto;
+        overflow: hidden; 
+        margin-bottom: 40px;
+        margin-left: 300px;
+        margin-right: 50px;
+      }
+      
+    
+    .premium-features-title{
+        font-size: 34px;
+        color: black;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+        margin-bottom: 40px;
+    }
+    
+    .find-my-fmly-map{
+        max-width: 320px;
+        max-height: 320px;
+        position: relative;
+        border-radius: 10%;
+        margin: auto;
+        top: 65px;
+        width: 70%;
+        height: auto;
+        z-index: 1;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .fmf-text-svg{
+        position: relative;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        z-index: 1;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    
+    .fmf-text{
+        color: black;
+        text-align: center;
+        width: fit-content;
+        max-width: 40%;
+        margin-bottom: 30px;
+        position: relative;
+        text-align: center;
+        margin: auto;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        margin-bottom: 40px;
+        left: 270px;
+    }
+    
+    .premium-features-text{
+        color: #888181;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        margin:auto;
+    }
+    
+    .fmly-pf-text{
+        color: #83F3DF;
+        font-weight: 600;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+    
+    .blue-square-pf{
+        background-color: #4D57B1;
+        border-radius: 40px;
+        width: 350px;
+        height: 450px;
+        max-width: 90%;
+        max-height: auto;
+        display: flex;
+        margin: auto;
+        margin-top: 320px;
+        margin-right: 300px;
+    }
+    
+    .bountyboard-minimal-view{
+        width: 150px;
+        height: 350px;
+        position: relative;
+        margin: auto;
+        margin-top: 50px;
+        max-width: 100%;
+        max-height: auto;
+        z-index: 1;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .bountyboard-blue-title{
+        color: #83CBF3;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        width: fit-content;
+        max-width: 90%;
+        height: auto;
+        margin: auto;
+        margin-left: 500px;
+        margin-bottom: 20px;
+        position: relative;
+        bottom: 150px;
+        margin-top: -200px;
+    }
+    
+    .bountyboard-blue-text{
+        margin-top: 30px;
+        color: black;
+        text-align: center;
+        width: 40%;
+        margin-bottom: 30px;
+        position: relative;
+        bottom: 100px;
+        margin: auto;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        margin-bottom: 140px;
+        margin-left: 300px;
+    }
+}
