@@ -2,8 +2,9 @@ from flask import Flask, request, jsonify, abort
 import uuid
 from datetime import datetime
 from flask_swagger_ui import get_swaggerui_blueprint
-from pymongo.mongo_client import MongoClient
+from pymongo import MongoClient
 import os
+from pymongo.collection import Collection
 
 app = Flask(__name__)
 
@@ -25,6 +26,8 @@ DB_URL = os.environ.get('CONNECTION_STRING')
 
 # Create a new client and connect to the server
 client = MongoClient(DB_URL)
+db = client['fmlyDB']
+collection = db['waitlist']
 
 # Send a ping to confirm a successful connection
 try:
@@ -32,6 +35,21 @@ try:
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
+
+
+class Waitlist(Collection):
+    def __init__(self, db):
+        super().__init__(db, 'waitlist')
+
+    def add_user(self, email):
+        self.insert_one({'email': email})
+
+    def remove_user(self, email):
+        self.delete_one({'email': email})
+
+    def get_users(self):
+        return self.find({}, {'_id': 0, 'email': 1})
+
 
 email_submissions = []
 
