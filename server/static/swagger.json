@@ -9,11 +9,241 @@
       "url": "https://fmly.app"
     }
   },
-
   "tags": [
     {
       "name": "Landing Page",
       "description": "API for the FMLY landing page."
     }
-  ]
+  ],
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "paths": {
+    "/api/waitlist": {
+      "get": {
+        "tags": [
+          "Landing Page"
+        ],
+        "summary": "Get all email submissions",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "The unique identifier for the email submission"
+                      },
+                      "email": {
+                        "type": "string",
+                        "description": "The email address submitted"
+                      },
+                      "timestamp": {
+                        "type": "string",
+                        "description": "The timestamp of when the email was submitted"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Landing Page"
+        ],
+        "summary": "Create a new email submission",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string",
+                    "description": "The email address to be submitted"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Email submission created successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "description": "The unique identifier for the email submission"
+                    },
+                    "email": {
+                      "type": "string",
+                      "description": "The email address submitted"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "description": "The timestamp of when the email was submitted"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/api/waitlist/{id}": {
+      "get": {
+        "tags": [
+          "Landing Page"
+        ],
+        "summary": "Get a specific email submission",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "The unique identifier for the email submission",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type":                    "string",
+                      "description": "The unique identifier for the email submission"
+                    },
+                    "email": {
+                      "type": "string",
+                      "description": "The email address submitted"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "description": "The timestamp of when the email was submitted"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Email submission not found"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Landing Page"
+        ],
+        "summary": "Update an existing email submission",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "The unique identifier for the email submission",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string",
+                    "description": "The updated email address"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Email submission updated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "description": "The unique identifier for the email submission"
+                    },
+                    "email": {
+                      "type": "string",
+                      "description": "The updated email address"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "description": "The timestamp of when the email was updated"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Email submission not found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Landing Page"
+        ],
+        "summary": "Delete an email submission",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "The unique identifier for the email submission",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Email submission deleted successfully"
+          },
+          "404": {
+            "description": "Email submission not found"
+          }
+        }
+      }
+    }
+  }
 }
+    
