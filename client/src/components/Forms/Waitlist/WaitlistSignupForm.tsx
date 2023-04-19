@@ -27,7 +27,7 @@ export const WaitlistSignupForm = () => {
   const handleSubmit = async (event : any) => {
     event.preventDefault();
     try {
-      const response = await axios.post("/api/waitlist", {
+      const response = await axios.post("http://localhost:5000/api/waitlist", {
         email: email,
       });
       console.log(response.data);
