@@ -7,7 +7,6 @@ from pymongo.collection import Collection
 from flask_cors import CORS
 from datetime import datetime
 import os
-import uuid
 
 load_dotenv(find_dotenv())
 
@@ -49,7 +48,7 @@ def get_timestamp():
 @app.route('/api/waitlist', methods=['POST'])
 def join_waitlist():
     form_data = {
-        'id': str(uuid.uuid4()),
+        # 'id': str(uuid.uuid4()),
         'email': request.json['email'],
         'timestamp': get_timestamp(),
     }
