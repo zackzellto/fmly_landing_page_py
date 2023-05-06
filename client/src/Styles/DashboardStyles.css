@@ -1,431 +1,425 @@
 @media screen and (max-width: 768px) {
-    .dashboard-mockup-svg{
-        position: relative;
-        margin: auto;
-        width: 300px;
-        max-width: 90%;
-        top: 5px;
-        margin-bottom: 40px;
-    }
+  .dashboard-mockup-svg {
+    position: relative;
+    margin: auto;
+    width: 300px;
+    max-width: 90%;
+    top: 5px;
+    margin-bottom: 40px;
+  }
 
-    .purple-bg-mockup{
-        background-color: #d1b2ff;
-        margin: auto;
-        width: 1300px;
-        max-width: 90%;
-        max-height: auto;
-        padding: 10px;
-        border-radius: 20px;
-        margin-bottom: 40px;
-    }
+  .purple-bg-mockup {
+    background-color: #d1b2ff;
+    margin: auto;
+    width: 1300px;
+    max-width: 90%;
+    max-height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
 
-    .dashboard-info-title{
-        font-size: 34px;
-        color: black;
-        font-weight: 600;
-        font-family: 'Poppins', sans-serif;
-        text-decoration: underline;
-        position: relative;
-    }
-    
-    .info-card-dinnertime-title{
-        font-size: 34px;
-        font-weight: 600;
-        transform: scaleX(-1);
-        color: black;
-        margin: auto;
-        position: relative;
-    }
+  .dashboard-info-title {
+    font-size: 34px;
+    color: black;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+    position: relative;
+  }
 
-    .info-card-dinnertime-title-bg{
-        margin-top: 20px;
-        height: 60px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        background-color: #ffffff
-    }
+  .info-card-dinnertime-title {
+    font-size: 34px;
+    font-weight: 600;
+    transform: scaleX(-1);
+    color: black;
+    margin: auto;
+    position: relative;
+  }
 
-    .info-card-cashquest-title{
-        font-size: 34px;
-        font-weight: 600;
-        transform: scaleX(-1);
-        color: black;
-        margin: auto;
-        position: relative;
-    }
+  .info-card-dinnertime-title-bg {
+    margin-top: 20px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #ffffff;
+  }
 
-    .info-card-cashquest-title-bg{
-        margin-top: 20px;
-        height: 60px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        background-color: #ffffff
-    }
+  .info-card-cashquest-title {
+    font-size: 34px;
+    font-weight: 600;
+    transform: scaleX(-1);
+    color: black;
+    margin: auto;
+    position: relative;
+  }
 
-    .info-card-fmlychat-title{
-        font-size: 34px;
-        font-weight: 600;
-        transform: scaleX(-1);
-        color: black;
-        margin: auto;
-        position: relative;
-    }
+  .info-card-cashquest-title-bg {
+    margin-top: 20px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #ffffff;
+  }
 
-    .info-card-fmlychat-title-bg{
-        margin-top: 20px;
-        height: 60px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        background-color: #ffffff
-    }
+  .info-card-fmlychat-title {
+    font-size: 34px;
+    font-weight: 600;
+    transform: scaleX(-1);
+    color: black;
+    margin: auto;
+    position: relative;
+  }
 
-    .info-card-groceries-title{
-        font-size: 34px;
-        font-weight: 600;
-        transform: scaleX(-1);
-        color: black;
-        margin: auto;
-        position: relative;
-    }
+  .info-card-fmlychat-title-bg {
+    margin-top: 20px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #ffffff;
+  }
 
-    .info-card-groceries-title-bg{
-        margin-top: 20px;
-        height: 60px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        background-color: #ffffff
-    }
+  .info-card-groceries-title {
+    font-size: 34px;
+    font-weight: 600;
+    transform: scaleX(-1);
+    color: black;
+    margin: auto;
+    position: relative;
+  }
 
-    .info-card-groceries{
-        position: relative;
-        margin-top: 100px;
-        width: 314px;
-        height: 327px;
-        max-width: 100%;
-        max-height: auto;
-        margin: auto;
-        z-index: 1;
-        background: #83CBF3;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 28px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
+  .info-card-groceries-title-bg {
+    margin-top: 20px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #ffffff;
+  }
 
-    .info-card-fmlychat{
-        position: relative;                                                                                                                                                                                                       
-        width: 314px;
-        height: 327px;
-        max-width: 100%;
-        max-height: auto;
-        margin: auto;
-        z-index: 1;
-        background: #CBF4AB;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 28px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
+  .info-card-groceries {
+    position: relative;
+    margin-top: 100px;
+    width: 314px;
+    height: 327px;
+    max-width: 100%;
+    max-height: auto;
+    margin: auto;
+    z-index: 1;
+    background: #83cbf3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
 
-    }
+  .info-card-fmlychat {
+    position: relative;
+    width: 314px;
+    height: 327px;
+    max-width: 100%;
+    max-height: auto;
+    margin: auto;
+    z-index: 1;
+    background: #cbf4ab;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
 
-    .info-card-cashquest{
-        position: relative;
-        margin-bottom: 30px;
-        width: 314px;
-        height: 327px;
-        max-width: 100%;
-        max-height: auto;
-        margin: auto;
-        z-index: 1;
-        background: #F199D8;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 28px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
+  .info-card-cashquest {
+    position: relative;
+    margin-bottom: 30px;
+    width: 314px;
+    height: 327px;
+    max-width: 100%;
+    max-height: auto;
+    margin: auto;
+    z-index: 1;
+    background: #f199d8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
 
-    .info-card-dinnertime{
-        position: relative;
-        width: 314px;
-        height: 327px;
-        max-width: 100%;
-        max-height: auto;
-        margin: auto;
-        z-index: 1;
-        background: #F1F383;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 28px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
+  .info-card-dinnertime {
+    position: relative;
+    width: 314px;
+    height: 327px;
+    max-width: 100%;
+    max-height: auto;
+    margin: auto;
+    z-index: 1;
+    background: #f1f383;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
 
-    .info-text{
-        position: relative;
-        width: 90%;
-        max-width: 250px;
-        margin: auto;
-        height: auto;
-        margin-top: 15px;
-        text-align: start;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 24px;
-        display: inline-block;
-        transform: scaleX(-1);
-        color: #000000;
-        text-indent: 10%;
-    }
+  .info-text {
+    position: relative;
+    width: 90%;
+    max-width: 250px;
+    margin: auto;
+    height: auto;
+    margin-top: 15px;
+    text-align: start;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    display: inline-block;
+    transform: scaleX(-1);
+    color: #000000;
+    text-indent: 10%;
+  }
 
-    .info-arrow-groceries{
-        display: none;
-    }
+  .info-arrow-groceries {
+    display: none;
+  }
 
-    .info-arrow-fmlychat{
-        display: none;
+  .info-arrow-fmlychat {
+    display: none;
+  }
 
-    }
+  .info-arrow-cashquest {
+    display: none;
+  }
 
-    .info-arrow-cashquest{
-        display: none;
-    }
-
-    .info-arrow-dinnertime{
-        display: none;
-    }
+  .info-arrow-dinnertime {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .dashboard-mockup-svg{
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        position: relative;
-        width: 30%;
-        height: auto;
-        max-width: 100%;
-        max-height: auto;
-        bottom: 100px;
-    }
+  .dashboard-mockup-svg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+    max-height: auto;
+    bottom: 100px;
+  }
 
-    .purple-bg-mockup{
-        background-color: #d1b2ff;
-        margin: auto;
-        height: 1100px;
-        width: 1300px;
-        max-width: 100%;
-        padding: 10px;
-        border-radius: 20px;
-        margin-bottom: 30px;
-    }
+  .purple-bg-mockup {
+    background-color: #d1b2ff;
+    margin: auto;
+    height: 1100px;
+    width: 1300px;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
 
-    .dashboard-info-title{
-        font-size: 34px;
-        color: black;
-        font-weight: 600;
-        font-family: 'Poppins', sans-serif;
-        margin-top: 50px;
-        text-decoration: underline;
-        margin-bottom: 30px;
+  .dashboard-info-title {
+    font-size: 34px;
+    color: black;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+  }
 
-    }
-    
-    .info-card-dinnertime-title{
-        font-size: 34px;
-        font-weight: 600;
-        transform: scaleX(-1);
-        color: black;
-        margin: auto;
-        position: relative;
-    }
+  .info-card-dinnertime-title {
+    font-size: 34px;
+    font-weight: 600;
+    transform: scaleX(-1);
+    color: black;
+    margin: auto;
+    position: relative;
+  }
 
-    .info-card-dinnertime-title-bg{
-        margin-top: 20px;
-        height: 60px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        background-color: #ffffff
-    }
+  .info-card-dinnertime-title-bg {
+    margin-top: 20px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #ffffff;
+  }
 
-    .info-card-cashquest-title{
-        font-size: 34px;
-        font-weight: 600;
-        transform: scaleX(-1);
-        color: black;
-        margin: auto;
-        position: relative;
-    }
+  .info-card-cashquest-title {
+    font-size: 34px;
+    font-weight: 600;
+    transform: scaleX(-1);
+    color: black;
+    margin: auto;
+    position: relative;
+  }
 
-    .info-card-cashquest-title-bg{
-        margin-top: 20px;
-        height: 60px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        background-color: #ffffff
-    }
+  .info-card-cashquest-title-bg {
+    margin-top: 20px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #ffffff;
+  }
 
-    .info-card-fmlychat-title{
-        font-size: 34px;
-        font-weight: 600;
-        transform: scaleX(-1);
-        color: black;
-        margin: auto;
-        position: relative;
-    }
+  .info-card-fmlychat-title {
+    font-size: 34px;
+    font-weight: 600;
+    transform: scaleX(-1);
+    color: black;
+    margin: auto;
+    position: relative;
+  }
 
-    .info-card-fmlychat-title-bg{
-        margin-top: 20px;
-        height: 60px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        background-color: #ffffff
-    }
+  .info-card-fmlychat-title-bg {
+    margin-top: 20px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #ffffff;
+  }
 
-    .info-card-groceries-title{
-        font-size: 34px;
-        font-weight: 600;
-        transform: scaleX(-1);
-        color: black;
-        margin: auto;
-        position: relative;
-    }
+  .info-card-groceries-title {
+    font-size: 34px;
+    font-weight: 600;
+    transform: scaleX(-1);
+    color: black;
+    margin: auto;
+    position: relative;
+  }
 
-    .info-card-groceries-title-bg{
-        margin-top: 20px;
-        height: 60px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        background-color: #ffffff
-    }
+  .info-card-groceries-title-bg {
+    margin-top: 20px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #ffffff;
+  }
 
-    .info-card-groceries{
-        background: #83CBF3;
-        width: 30%;
-        border-radius: 15px;
-        height: auto;
-        position: relative;
-        bottom: 1050px;
-        left: 820px;
-        margin-left: 40px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
+  .info-card-groceries {
+    background: #83cbf3;
+    width: 30%;
+    border-radius: 15px;
+    height: auto;
+    position: relative;
+    bottom: 1050px;
+    left: 820px;
+    margin-left: 40px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
 
-    .info-card-fmlychat{
-        background-color: #CBF4AB;
-        width: 30%;
-        border-radius: 15px;
-        height: auto;
-        position: relative;
-        bottom: 1070px;
-        left: 820px;
-        margin-left: 40px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
+  .info-card-fmlychat {
+    background-color: #cbf4ab;
+    width: 30%;
+    border-radius: 15px;
+    height: auto;
+    position: relative;
+    bottom: 1070px;
+    left: 820px;
+    margin-left: 40px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
 
-    }
+  .info-card-cashquest {
+    background: #f199d8;
+    width: 30%;
+    border-radius: 15px;
+    height: auto;
+    position: relative;
+    bottom: 850px;
+    margin-left: 40px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
 
-    .info-card-cashquest{
-        background: #F199D8;
-        width: 30%;
-        border-radius: 15px;
-        height: auto;
-        position: relative;
-        bottom: 850px;
-        margin-left: 40px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
+  .info-card-dinnertime {
+    background: #f1f383;
+    width: 30%;
+    border-radius: 15px;
+    height: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+    position: relative;
+    bottom: 820px;
+    margin-left: 40px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
 
-    .info-card-dinnertime{
-        background: #F1F383;
-        width: 30%;
-        border-radius: 15px;
-        height: auto;
-        max-width: fit-content;
-        max-height: fit-content;
-        position: relative;
-        bottom: 820px;
-        margin-left: 40px;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
+  .info-text {
+    position: relative;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    text-align: start;
+    font-family: "Poppins" sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    transform: scaleX(-1);
+    color: #000000;
+  }
 
-    .info-text{
-        position: relative;
-        width: 90%;
-        padding: 10px; 
-        margin: auto;      
-        text-align: start;
-        font-family: 'Poppins' sans-serif;
-        font-weight: 600;
-        font-size: 14px;
-        transform: scaleX(-1);
-        color: #000000;
-    }
+  .info-arrow-groceries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    width: 10%;
+    height: auto;
+    max-width: 30%;
+    max-height: auto;
+    left: 250px;
+    top: 350px;
+  }
 
-    .info-arrow-groceries{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        position: relative;
-        width: 10%;
-        height: auto;
-        max-width: 30%;
-        max-height: auto;
-        left: 250px;
-        top: 350px;
-    }
+  .info-arrow-fmlychat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    width: 10%;
+    height: auto;
+    max-width: 30%;
+    max-height: auto;
+    left: 250px;
+    top: 300px;
+  }
 
-    .info-arrow-fmlychat{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        position: relative;
-        width: 10%;
-        height: auto;
-        max-width: 30%;
-        max-height: auto;
-        left: 250px;
-        top: 300px;
+  .info-arrow-cashquest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    width: 10%;
+    height: auto;
+    max-width: 30%;
+    max-height: auto;
+    right: 250px;
+    top: 350px;
+  }
 
-    }
-
-    .info-arrow-cashquest{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        position: relative;
-        width: 10%;
-        height: auto;
-        max-width: 30%;
-        max-height: auto;
-        right: 250px;
-        top: 350px;
-    }
-
-    .info-arrow-dinnertime{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        position: relative;
-        width: 10%;
-        height: auto;
-        max-width: 30%;
-        max-height: auto;
-        right: 250px;
-        top: 400px;
-    }
-
+  .info-arrow-dinnertime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    width: 10%;
+    height: auto;
+    max-width: 30%;
+    max-height: auto;
+    right: 250px;
+    top: 400px;
+  }
 }
