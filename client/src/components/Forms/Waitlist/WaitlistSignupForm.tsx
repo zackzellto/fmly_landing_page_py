@@ -9,12 +9,9 @@ import "./WaitlistSignup.css";
 import WaitlistAlert from "../../../components/Alerts/WaitlistAlert";
 import axios from "axios";
 
-
 export const WaitlistSignupForm = () => {
-
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
   const [showAlert, setShowAlert] = useState(false);
-
 
   const checkEmail = () => {
     if (validateEmail(email)) {
@@ -24,12 +21,15 @@ export const WaitlistSignupForm = () => {
     }
   };
 
-  const handleSubmit = async (event : any) => {
+  const handleSubmit = async (event: any) => {
     event.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/waitlist", {
-        email: email,
-      });
+      const response = await axios.post(
+        "https://fmly-server.herokuapp.com/api/waitlist",
+        {
+          email: email,
+        }
+      );
       console.log(response.data);
       // add code to handle successful response from API
     } catch (error) {
@@ -37,7 +37,6 @@ export const WaitlistSignupForm = () => {
       // add code to handle error from API
     }
   };
-  
 
   return (
     <>
@@ -57,21 +56,21 @@ export const WaitlistSignupForm = () => {
               />
               <div className="wl-spacer"></div>
               <Button
-              style={{ 
-              backgroundColor: "#83F3DF", 
-              color: "black", 
-              fontWeight: "bold", 
-              fontSize: "16px", 
-              fontFamily: "Poppins, sans-serif",
-              borderRadius: "10px", 
-              padding: "10px 20px", 
-              cursor: "pointer",
-              border: "1px solid #83F3DF",
-              boxShadow: "0px 3px 3px rgba(0, 0, 0, 0.25)",
-              transition: "all 0.2s ease-in-out",
-               }}
+                style={{
+                  backgroundColor: "#83F3DF",
+                  color: "black",
+                  fontWeight: "bold",
+                  fontSize: "16px",
+                  fontFamily: "Poppins, sans-serif",
+                  borderRadius: "10px",
+                  padding: "10px 20px",
+                  cursor: "pointer",
+                  border: "1px solid #83F3DF",
+                  boxShadow: "0px 3px 3px rgba(0, 0, 0, 0.25)",
+                  transition: "all 0.2s ease-in-out",
+                }}
                 className="wl-button"
-                type="submit"  
+                type="submit"
                 onClick={handleSubmit}
               >
                 Join Waitlist!
